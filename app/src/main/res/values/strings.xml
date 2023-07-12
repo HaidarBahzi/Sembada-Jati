@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Sembada Jati</string>
+
+    <string name="image_path">https://haidarbahzi.com/image_sembada</string>
+    <string name="register">Daftar!</string>
+    <string name="password">Kata Sandi</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="email">Email</string>
+    <string name="name">Nama</string>
+    <string name="login">Masuk!</string>
+    <string name="create_account">Belum punya akun? <u>Buat Sekarang!</u></string>
+    <string name="login_account">Sudah punya akun? <u>Masuk di sini!</u></string>
+    <string name="reset_password">Reset Kata Sandi</string>
+    <string name="your_new_password">Kata Sandi Baru Anda</string>
+    <string name="reset_password_button">Reset Kata Sandi</string>
+
+    <string-array name="onboarding_title">
+        <item>Selamat datang di Sembada Jati</item>
+        <item>Pengiriman Cepat</item>
+        <item>Semua Produk Diperhatikan dengan Cinta</item>
+        <item>Tidak Perlu Khawatir tentang Keamanan</item>
+        <item>Selesai!</item>
+    </string-array>
+
+    <string-array name="onboarding_desc">
+        <item>Inilah toko furnitur terbaik di Indonesia!</item>
+        <item>Kami menjamin barang yang dipesan akan tiba dengan aman dan cepat</item>
+        <item>Semua produk kami adalah kerajinan tangan yang kami perhatikan dengan sepenuh hati</item>
+        <item>Kami menjamin keamanan aplikasi kami</item>
+        <item>Itu saja! Sekarang jelajahi sisa Sembada Jati, Sampai jumpa</item>
+    </string-array>
+    
+    <string-array name="option_payment">
+        <item>BRI</item>
+        <item>BNI</item>
+        <item>BSI</item>
+        <item>Mandiri</item>
+        <item>BCA</item>
+    </string-array>
+
+    <integer-array name="onboarding_poster">
+        <item>@drawable/welcome_onboarding</item>
+        <item>@drawable/fast_onboarding</item>
+        <item>@drawable/delivery_onboarding</item>
+        <item>@drawable/secure_onboarding</item>
+        <item>@drawable/done_photo</item>
+    </integer-array>
+
+    <integer-array name="onboarding_icon">
+        <item>@drawable/baseline_home_24</item>
+        <item>@drawable/baseline_delivery_dining_24</item>
+        <item>@drawable/baseline_shopping_cart_24</item>
+        <item>@drawable/baseline_lock_24</item>
+        <item>@drawable/baseline_done_all_24</item>
+    </integer-array>
+    <string name="title_activity_bottom_navigation">bottom_navigation_activity</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Dasbor</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="home">Beranda</string>
+    <string name="search">Cari</string>
+    <string name="cart">Keranjang</string>
+    <string name="profile">Profil</string>
+    <string name="sembadajati">SembadaJati</string>
+    <string name="harga">Rp</string>
+    <string name="beli">"Telah Dibeli Sebanyak: "</string>
+    <string name="search_your_product">Cari Produk Anda</string>
+    <string name="buy_now">Beli Sekarang</string>
+    <string name="anda_yakin_ingin_membeli_produk_ini">Anda yakin ingin membeli Produk ini?</string>
+    <string name="no">Tidak</string>
+    <string name="yes">Ya</string>
+    <string name="logout">Keluar</string>
+    <string name="submit">Kirim</string>
+    <string name="idl">••••••••••••••••••••</string>
+    <string name="previous_password">Kata Sandi Lama</string>
+    <string name="ganti_data">Ubah Data Profil</string>
+    <string name="hello_iam_a_customer_of_sembadajati_shop">Halo, saya pelanggan dari Toko SembadaJati</string>
+    <string name="ganti_foto_profil">Ubah Foto Profil</string>
+</resources>

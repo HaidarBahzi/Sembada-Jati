@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="275dp"
+    android:layout_marginTop="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:elevation="20dp"
+                android:id="@+id/product_poster"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@tools:sample/avatars"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_poster"
+                app:layout_constraintLeft_toLeftOf="@+id/product_poster"
+                android:background="@color/white"
+                android:padding="6dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/product_title"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:maxLines="2"
+                    android:fontFamily="@font/mons_regular"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/product_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/product_title"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:fontFamily="@font/font_mons"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/product_avability"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/product_price"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:fontFamily="@font/mons_regular"
+                    android:maxLines="1"
+                    android:textSize="12sp"
+                    android:textColor="@color/grey"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="3dp"
+                    app:drawableLeftCompat="@drawable/stock" />
+
+                <TextView
+                    android:id="@+id/product_rating_sold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/product_avability"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:maxLines="1"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/mons_regular"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/grey"
+                    android:drawablePadding="3dp"
+                    app:drawableLeftCompat="@drawable/star" />
+
+                <ImageButton
+                    android:src="@drawable/three_dots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:background="@null"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

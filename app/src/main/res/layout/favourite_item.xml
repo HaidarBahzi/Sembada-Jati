@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/fav_poster"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/welcome_onboarding"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            />
+        
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/fav_poster"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+            
+            <TextView
+                android:id="@+id/fav_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAMA PRODUK"
+                android:fontFamily="@font/mons_regular"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/fav_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/fav_name"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="RP(((((((((((((((((((((("
+                android:textSize="18sp"
+                android:fontFamily="@font/font_mons"
+                android:textColor="@color/leaf"
+                />
+            
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/button_fav_delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_24"
+            android:background="@color/white"
+            android:layout_marginEnd="20dp"
+            />
+        
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

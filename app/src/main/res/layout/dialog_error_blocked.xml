@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    >
+
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/dialog_error_blocked"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="45dp">
+
+        <ImageView
+            android:id="@+id/dialog_error_blocked_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="Sorry, your account is currently blocked."
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/font_mons"
+            android:layout_height="wrap_content"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:textColor="@color/grey"
+            android:fontFamily="@font/mons_regular"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:text="We regret to inform you that your account has been temporarily blocked. Please contact our support team at +6281226226318 for further assistance."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dialog_error_blocked_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="OK"
+            android:background="@drawable/button_register_and_login" />
+
+    </LinearLayout>
+
+</RelativeLayout>

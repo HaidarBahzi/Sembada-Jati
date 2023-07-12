@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp"
+        android:background="@drawable/navbar"
+        android:gravity="center"
+        android:layout_margin="20dp">
+
+        <ImageButton
+            android:id="@+id/btn_navbar_home"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_home_black_24dp"
+            android:background="@drawable/round"
+            app:tint="@color/old_gray"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_navbar_search"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_search_24"
+            android:background="@drawable/round"
+            app:tint="@color/old_gray"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_navbar_cart"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_shopping_cart_28"
+            android:background="@drawable/round"
+            app:tint="@color/old_gray"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_navbar_profile"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_account_circle_24"
+            android:background="@drawable/round"
+            app:tint="@color/old_gray"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
